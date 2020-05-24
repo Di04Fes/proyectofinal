@@ -1,0 +1,42 @@
+body{
+  background-color: #6dff49;
+}
+.header {/*encabezado*/
+    background-color: #6dff49;
+    text-align: center;
+    padding: 20px;
+  }
+.column {
+    float: left;
+  }
+  
+  .column.side {
+    text-align: justify;
+    width: 24%;
+    padding: 3px;
+
+  }
+  
+  .column.middle {
+    text-align: justify;
+    width: 24%;
+    padding: 3px;
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  .pie{
+    padding: 20px;
+    text-align: center;
+    background: rgb(19, 18, 18);
+    margin-top: 20px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

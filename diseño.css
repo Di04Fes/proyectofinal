@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    text-transform: uppercase;
+    background-color: #2ab9c1;
+  }
+  
+  .header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+  }
+  
+  .header {
+    padding: 30px;
+    text-align: center;
+    background: #2ab9c1;/*titulo*/
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .leftcolumn {   
+    float: left;
+    width: 70%;
+  }
+  
+  .rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+  }
+  
+  .fakeimg {/*redes*/
+    background-color: #2748de;
+    width: 100%;
+    padding: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+  .fakeimg1 {/*redes*/
+    background-color:#2ab9c1;
+    width: 100%;
+    padding: 20px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+  }
+
+.fakeimg2 {/*redes*/
+  background-color:#2ab9c1;
+  width: 100%;
+  padding: 20px;
+  padding: 20px 20px 20px 20px;
+  border-style: solid;
+}
+  
+  .fakeimg3 {/*redes*/
+    background-color:#2ab9c1;
+    width: 100%;
+    padding: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+  .twitter-tweet {/*redes*/
+    width: 100%;
+    padding: 20px;
+    padding: 20px 20px 20px 20px;
+    float: left;
+  }
+  
+  .card {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(19, 18, 18);
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .noti{
+    float: right;
+    text-align: center;
+  }
+
+  .letra{
+    font-size: 15px;
+    text-align: justify;
+  }
+  body{
+    background-color:#2ab9c1;
+  }
+  .img{
+    text-align: center;
+  }

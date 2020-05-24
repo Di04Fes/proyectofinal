@@ -1,0 +1,20 @@
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00cec5;
+    position: -webkit-sticky;/*safary*/
+    position: sticky;
+    top: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:#000000;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}

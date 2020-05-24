@@ -1,0 +1,10 @@
+.titulo{
+    width: 70%;
+    text-align: center;
+    color: red;
+}
+ol, p{
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: none;
+}

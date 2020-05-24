@@ -1,0 +1,13 @@
+.div_principal{
+  content: "";
+  display: table;
+  clear: both;
+}
+.div_uno{
+    float: left;
+
+    width: 70%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
